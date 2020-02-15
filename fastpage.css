@@ -146,7 +146,7 @@ div, button {
 
 #fastplan-tag {
     position: absolute;
-    top: 85px;
+    top: 120px;
     left: 7px;
     width: 100px;
     height: 20px;
@@ -400,6 +400,23 @@ div, button {
     width: 100%;
     font-size: var(--display1);
     font-weight: normal;
+    text-align: center;
+}
+
+#fixed-button button {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 30px;
+    background: var(--color-blue);
+    border: none;
+}
+
+#fixed-button button p {
+    width: 100%;  
+    font-size: var(--display3);
+    text-decoration: underline;
+    color: #FFFFFF;
     text-align: center;
 }
 
